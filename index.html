@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quicklist</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="/assets/logo.svg" alt="Logo" />
+    </header>
+
+    <main class="container">
+        <section class="cabecalho">
+            <a href="#"> <img src="/assets/seta.svg" />Voltar</a>
+            <h1>Compras da semana</h1>
+
+            <form id="form">
+                <input type="text" name="text" id="text" placeholder="Adicione um novo item">
+                <input type="submit" value="Adicionar item" class="btn">
+            </form>
+
+        </section>
+
+        <section class="List">
+            <ul role="List">
+                <li>
+                    <input type="checkbox" name="" id="">
+                    <p>Pão de forma</p>
+                    <a href="#" class="delete-btn"><img src="/assets/bin.svg"></a>
+                </li>
+                <li>
+                    <input type="checkbox" name="" id="">
+                    <p>Café preto</p>
+                    <a href="#" class="delete-btn"><img src="/assets/bin.svg"></a>
+                </li>
+                <li>
+                    <input type="checkbox" name="" id="">
+                    <p>Suco de laranja</p>
+                    <a href="#" class="delete-btn"><img src="/assets/bin.svg"></a>
+                </li>
+                <li>
+                    <input type="checkbox" name="" id="">
+                    <p> Bolacha</p>
+                    <a href="#" class="delete-btn"><img src="/assets/bin.svg"></a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
