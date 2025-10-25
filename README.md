@@ -45,27 +45,7 @@ lista-de-tarefas/
     └── bin.svg        # Ícone da lixeira
 ```
 
-## 🎯 Como Usar
 
-1. **Clone este repositório**
-   ```bash
-   git clone <url-do-repositorio>
-   ```
-
-2. **Navegue até a pasta do projeto**
-   ```bash
-   cd "lista de tarefas"
-   ```
-
-3. **Abra o arquivo index.html em seu navegador**
-   - Duplo clique no arquivo `index.html`
-   - Ou use um servidor local como Live Server (VS Code)
-
-4. **Comece a usar:**
-   - Digite um item no campo de entrada
-   - Clique em "Adicionar item" para adicionar à lista
-   - Use os checkboxes para marcar como concluído
-   - Clique na lixeira para remover itens
 
 ## 💡 Funcionalidades Técnicas
 
@@ -93,13 +73,6 @@ Este projeto foi desenvolvido como parte dos estudos do **curso Fullstack da Roc
 - 💫 Animações e transições CSS
 - 🧩 Arquitetura de código limpo e organizado
 
-## 🚀 Possíveis Melhorias
-
-- [ ] Persistência de dados com localStorage
-- [ ] Drag and drop para reordenar itens
-- [ ] Categorias de itens
-- [ ] Dark mode
-- [ ] PWA (Progressive Web App)
 
 ## 👨‍💻 Desenvolvedor
 
@@ -109,6 +82,4 @@ Desenvolvido com 💜 durante os estudos na **Rocketseat**
 
 *Este é um projeto educacional criado para praticar os fundamentos de desenvolvimento web fullstack.*
 
-## 📄 Licença
 
-Este projeto é para fins educacionais e está sob a licença MIT.
