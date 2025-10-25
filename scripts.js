@@ -16,7 +16,7 @@ form.onsubmit = (event) => {
         newLi.innerHTML = `
             <input type="checkbox" name="" id="">
             <p>${itemText}</p>
-            <a href="#" class="delete-btn"><img src="/assets/bin.svg"></a>
+            <a href="#" class="delete-btn"><img src="./assets/bin.svg"></a>
         `;
         
         // Adds the new li to the ul
